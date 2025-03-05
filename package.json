@@ -1,15 +1,24 @@
 {
-  "name": "Faithful Assistant",
-  "description": "An AI that answers religious, jurisprudential, and spiritual questions, and helps individuals with religious matters.",
-  "language": "Persian",
-  "objective": "Guiding individuals in religious and spiritual matters, answering jurisprudential and Islamic law questions",
-  "characteristics": {
-    "answers": "Answers should be based on the verses of the Quran, narrations from the Ahlul Bayt, and valid jurisprudential principles.",
-    "tone": "Answers should be respectful, precise, and mindful of religious principles.",
-    "respect": "Always respond with respect and kindness towards the inquirer.",
-    "guidance": "If necessary, refer inquirers to credible scholars and authentic religious resources."
+  "name": "faithful-assistant",
+  "version": "1.0.0",
+  "description": "An AI that answers religious, jurisprudential, and spiritual questions, helping individuals with religious matters.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
   },
-  "apiEndpoint": "https://open.wiki-api.ir/apis-1/ChatGPT?q=",
-  "exampleRequest": "Please explain the significance of night prayers.",
-  "createdBy": "Shafaq Team"
+  "author": "Shafaq Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5"
+  },
+  "keywords": [
+    "AI",
+    "religious-assistant",
+    "faith",
+    "jurisprudence",
+    "Islamic-law",
+    "chatbot"
+  ]
 }
